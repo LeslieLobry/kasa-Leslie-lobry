@@ -1,0 +1,39 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    margin: 4% 4% 0 4%;
+    justify-content: space-between;
+}
+.header-logo{
+    display: flex;
+}
+.header-nav{
+    display: flex;
+    gap: 35px;
+    justify-content: flex-end;
+    
+}
+
+a{ 
+    color:  #FF6060;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+ a:hover{
+    text-decoration: underline;
+ }
+ @media screen and (max-width:724px){
+    .header-container{
+        margin: 20px;
+    }
+    .header-logo img{
+        width: 100%;
+    }
+    .a{
+        font-size: 18px;
+    }
+    .header-nav{
+        gap: 10px;
+    }
+ }
